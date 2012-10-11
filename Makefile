@@ -6,8 +6,8 @@ build:
 	${PDFLATEX} -output-directory bin/ src/*.tex
 
 clean:
-	rm -f bin/*.out bin/*.log bin/*.dvi bin/*.snm bin/*.toc bin/*.nav bin/*.dvi bin/*.aux
+	rm -f bin/*.out bin/*.log bin/*.dvi bin/*.snm bin/*.nav bin/*.dvi bin/*.aux
 
 cleanAll: clean
-	rm -f bin/*.pdf
+	rm -f bin/*.pdf bin/*.toc bin/*.toc
 
