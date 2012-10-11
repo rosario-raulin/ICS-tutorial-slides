@@ -1,0 +1,4 @@
+This repo contains the latex source files for my slides for the ICS tutorial.
+
+If you use texlive, you can build pdfs by using `make`.
+
