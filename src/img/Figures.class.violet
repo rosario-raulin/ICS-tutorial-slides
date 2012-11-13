@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_09" class="java.beans.XMLDecoder">
+ <object class="com.horstmann.violet.ClassDiagramGraph">
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode">
+    <void property="methods">
+     <void property="text">
+      <string>+draw(): void</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Point</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double0">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double0">
+       <void class="java.awt.geom.Point2D$Double" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point2D$Double0">
+          <void method="setLocation">
+           <double>78.0</double>
+           <double>69.0</double>
+          </void>
+         </object>
+         <double>69.0</double>
+        </void>
+       </void>
+      </object>
+      <double>78.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode">
+    <void property="methods">
+     <void property="text">
+      <string>+drawLine(): void</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Line</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double1">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double1">
+       <void class="java.awt.geom.Point2D$Double" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point2D$Double1">
+          <void method="setLocation">
+           <double>211.0</double>
+           <double>71.0</double>
+          </void>
+         </object>
+         <double>71.0</double>
+        </void>
+       </void>
+      </object>
+      <double>211.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode">
+    <void property="methods">
+     <void property="text">
+      <string>+draw(): void</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Circle</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double2">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double2">
+       <void class="java.awt.geom.Point2D$Double" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point2D$Double2">
+          <void method="setLocation">
+           <double>337.0</double>
+           <double>67.0</double>
+          </void>
+         </object>
+         <double>67.0</double>
+        </void>
+       </void>
+      </object>
+      <double>337.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void method="addNode">
+   <object class="com.horstmann.violet.ClassNode">
+    <void property="methods">
+     <void property="text">
+      <string>+drawRect(): void</string>
+     </void>
+    </void>
+    <void property="name">
+     <void property="text">
+      <string>Rectangle</string>
+     </void>
+    </void>
+   </object>
+   <object class="java.awt.geom.Point2D$Double" id="Point2D$Double3">
+    <void class="java.awt.geom.Point2D$Double" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point2D$Double3">
+       <void class="java.awt.geom.Point2D$Double" method="getField">
+        <string>y</string>
+        <void method="set">
+         <object idref="Point2D$Double3">
+          <void method="setLocation">
+           <double>466.0</double>
+           <double>71.0</double>
+          </void>
+         </object>
+         <double>71.0</double>
+        </void>
+       </void>
+      </object>
+      <double>466.0</double>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
